@@ -1,0 +1,1 @@
+SELECT product_name FROM product WHERE product_id=ANY (select product_id from sale);
